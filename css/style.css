@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento|Quattrocento+Sans');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----wrapper----*/
+
+.wrapper {
+    max-width: 60rem;
+    margin: auto;
+    box-shadow: 0px 0px 60px #aeaeae;
+    line-height: 1.5;
+}
+
+.main {
+    padding: 2rem;
+}
+
+/*---------common css--------*/
+
+p,
+a {
+    line-height: 1.5;
+    font-size: 1rem;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+a {
+    font-weight: 800;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5;
+    font-family: 'Quattrocento', serif;
+    color: #1b690b;
+}
+
+.content article h2 {
+    line-height: 1.5;
+    font-family: 'Quattrocento', serif;
+    color: #1b690b;
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 0;
+    background-color: #1b690b;
+    color: #fff;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #1b690b;
+}
+
+.active {
+    background-color: #5cab1d;
+    color: #fff;
+}
+
+a:hover {
+    color: #5cab1d;
+}
+
+article {
+    width: 100%;
+}
+
+article img {
+    display: inline-block;
+    height: auto;
+    width: 25%;
+    float: left;
+}
+
+article p {
+    display: inline-block;
+    float: left;
+    width: 70%;
+    padding: 1rem;
+}
+
+/*----footer-----*/
+
+footer {
+    clear: both;
+    padding: 0.5rem 2rem;
+}
+
+
+footer a {
+    color: #1b690b;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+/*------------------------media queries full width--------------------*/
+@media screen and (min-width:60rem) {
+    .wrapper {
+        max-width: 60rem;
+        margin: auto;
+        box-shadow: 0px 0px 60px #aeaeae;
+        line-height: 1.5;
+    }
+    .main {
+        padding: 2rem;
+    }
+
+    /*---------common css--------*/
+    p,
+    a {
+        line-height: 1.5;
+        font-size: 1rem;
+        font-family: 'Quattrocento Sans', sans-serif;
+    }
+
+    a {
+        font-weight: 800;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.5;
+        font-family: 'Quattrocento', serif;
+        color: #1b690b;
+    }
+
+    .content article h2 {
+        line-height: 1.5;
+        font-family: 'Quattrocento', serif;
+        color: #1b690b;
+        font-weight: 700;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    article img {
+        display: inline-block;
+        height: auto;
+        width: 25%;
+        float: left;
+    }
+
+    article p {
+        display: inline-block;
+        float: left;
+        width: 70%;
+        padding: 1rem;
+    }
+    /*----footer-----*/
+    footer {
+        clear: both;
+        padding: 0.5rem 2rem;
+    }
+
+
+    footer a {
+        color: #1b690b;
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+}
+
+
+/*----------------------media queries tablet ------------------------*/
+
+@media screen and (min-width:30rem) and (max-width:60rem) {
+    /*----wrapper----*/
+    .wrapper {
+        max-width: 60rem;
+        margin: 0 2rem;
+    }
+
+    /*---------common css--------*/
+    p,
+    a {
+        line-height: 1.5;
+        font-size: 0.75rem;
+        font-family: 'Quattrocento Sans', sans-serif;
+    }
+
+    a {
+        font-weight: 800;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.5;
+        font-family: 'Quattrocento', serif;
+        color: #1b690b;
+    }
+
+    .content article h2 {
+        line-height: 1.5;
+        font-family: 'Quattrocento', serif;
+        color: #1b690b;
+        font-weight: 700;
+    }
+
+    article {
+        width: 100%;
+    }
+    article img {
+        display: inline-block;
+        height: auto;
+        width: 25%;
+        float: left;
+    }
+    article p {
+        display: inline-block;
+        float: left;
+        width: 70%;
+        padding: 1rem;
+    }
+
+    /*----footer-----*/
+    footer {
+        clear: both;
+        padding: 0.5rem 2rem;
+    }
+
+
+    footer a {
+        color: #1b690b;
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+
+
+}
+
+
+/*----------------------media queries------------------------*/
+
+@media screen and (max-width:30rem) {
+    /*----wrapper----*/
+    .wrapper {
+        max-width: 60rem;
+        margin: 0 2rem;
+    }
+
+    /*---------common css--------*/
+    p,
+    a {
+        line-height: 1.5;
+        font-size: 0.75rem;
+        font-family: 'Quattrocento Sans', sans-serif;
+    }
+
+    a {
+        font-weight: 800;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.5;
+        font-family: 'Quattrocento', serif;
+        color: #1b690b;
+    }
+
+    .content article h2 {
+        line-height: 1.5;
+        font-family: 'Quattrocento', serif;
+        color: #1b690b;
+        font-weight: 700;
+    }
+
+    article {
+        width: 100%;
+    }
+    article img {
+        display: inline-block;
+        height: auto;
+        width: 100%;
+        float: left;
+    }
+    article p {
+        display: inline-block;
+        width: 100%;
+    }
+
+    /*----footer-----*/
+    footer {
+        clear: both;
+        padding: 0.5rem 2rem;
+    }
+
+
+    footer a {
+        color: #1b690b;
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+
+}
